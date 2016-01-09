@@ -1,3 +1,2 @@
 #!/bin/bash
-
-geth --genesis lab-seed.json --port 30303 --networkid 1001001 --rpc --rpccorsdomain "*" geth --networkid 1001001 --port 30303 --rpc --rpccorsdomain "*" console --ipcpath "/home/hiro/.ethereum/geth.ipc" console
+geth --genesis lab-seed.json --rpc --rpcport "8080" --rpccorsdomain "*" --datadir "/chains/ZeroChain" --port "30303" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --networkid 1001001 --nat "any" console 
