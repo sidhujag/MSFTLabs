@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
-  "title": "Zero-Seed Node",
-  "description": "Create the first node in Project Zero Lab",
+  "title": "Ethereum Initial Seed Node",
+  "description": "Create the first node for a private Ethereum Blockchain in the lab.",
   "tags": [
     "Bash",
     "Linux"
