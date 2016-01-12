@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
-  "title": "Initial Ethereum Seed Node Linux",
-  "description": "Create the first node for a private Ethereum Blockchain on Linux in the lab.",
+  "title": "Initial Go Ethereum Seed Node Linux",
+  "description": "Create the first Go based node for a private Ethereum Blockchain on Linux in the lab.",
   "tags": [
     "Bash",
     "Linux"
