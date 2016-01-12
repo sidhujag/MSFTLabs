@@ -21,8 +21,8 @@
     "type": "CustomScriptForLinux",
     "typeHandlerVersion": "1.3",
     "settings": {
-      "fileUris": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/add-node.sh",
-      "commandToExecute": "[concat('sh', ' ', 'add-node.sh', ' ', parameters('adminUserName'))]"
+      "fileUris": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/C%2B%2B%20Ethereum%20Linux/installCPPEth.sh",
+      "commandToExecute": "[concat('sh', ' ', 'installCPPEth.sh', ' ', parameters('adminUserName'))]"
     }
   }
 }
