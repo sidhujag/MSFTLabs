@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
-  "title": "Add Node",
-  "description": "Add a node in Lab",
+  "title": "Add Ethereum Node",
+  "description": "Add an Ethereum node to existing network in the Lab",
   "tags": [
     "Bash",
     "Linux"
