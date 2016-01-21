@@ -23,6 +23,7 @@ cd $HOMEDIR
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/lab-seed.json
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/seed-blockchain.sh
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/start-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/ssh443.sh
 
 #####################
 # setup the Azure CLI
@@ -48,8 +49,8 @@ time sudo apt-get update
 time sudo apt-get install solc -y
 
 ####################
-# Install SSH Tunnel for Remote Access
+# Listen on 443 for SSH
 ####################
-
+time sudo sh ssh443.sh
 date
 echo "completed geth install $$"

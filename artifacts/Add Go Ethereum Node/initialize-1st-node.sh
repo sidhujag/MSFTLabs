@@ -22,6 +22,7 @@ echo "vmname: $VMNAME"
 cd $HOMEDIR
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/lab-seed.json
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/seed-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/Registry.sol
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/start-blockchain.sh
 
 #####################
@@ -46,10 +47,6 @@ time sudo apt-get install -y ethereum
 time sudo add-apt-repository ppa:ethereum/ethereum -y
 time sudo apt-get update
 time sudo apt-get install solc -y
-
-####################
-# Install SSH Tunnel for Remote Access
-####################
 
 date
 echo "completed geth install $$"

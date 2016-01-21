@@ -16,13 +16,9 @@
       "allowEmpty": false
     }
   },
-  "runAzureVMExtension": {
-    "publisher": "Microsoft.OSTCExtensions",
-    "type": "CustomScriptForLinux",
-    "typeHandlerVersion": "1.3",
-    "settings": {
-      "fileUris": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/add-node.sh",
-      "commandToExecute": "[concat('sh', ' ', 'add-node.sh', ' ', parameters('adminUserName'))]"
+  "runCommand": {
+    "commandToExecute": "[concat('sh', ' ', 'add-node.sh', ' ', parameters('adminUserName'))]"
     }
-  }
-}
+ }
+
+
