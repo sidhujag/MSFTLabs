@@ -95,7 +95,7 @@ echo
 # Getting chains
 
 echo "Getting Chain managers"
-curl -sSL -o /home/$erisUser/simplechain.sh https://raw.githubusercontent.com/eris-ltd/common/master/cloud/chains/simplechain.sh
+curl -sSL -o /home/$erisUser/simplechain.sh https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Eris%20Node%20Linux/simplechain.sh
 chmod +x /home/$erisUser/*.sh
 chown $erisUser:$erisUser /home/$erisUser/*.sh
 echo "Chain managers acquired."
