@@ -24,6 +24,7 @@ wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20G
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/seed-blockchain.sh
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/start-blockchain.sh
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/ssh443.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/attachOne.sh
 
 #####################
 # setup the Azure CLI
