@@ -13,7 +13,7 @@
     }
   },
    "runCommand": {
-    "commandToExecute": "[concat('bash', ' ', 'add-node.sh', ' ', parameters('adminUserName'))]"
+    "commandToExecute": "[concat('sh', ' ', 'add-node.sh', ' ', parameters('adminUserName'))]"
   }
 }
 
