@@ -6,7 +6,7 @@
     "Bash",
     "Linux"
   ],
-  "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Eris%20Node%20Linux/erisicon.png",
+  "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/linux-eris-blockchain/erisicon.png",
   "targetOsType": "Linux",
   "parameters": {
     "adminUserName": {
