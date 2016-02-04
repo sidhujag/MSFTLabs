@@ -20,11 +20,11 @@ echo "vmname: $VMNAME"
 
 # Fetch Genesis and scripts
 cd $HOMEDIR
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/lab-seed.json
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/seed-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/start-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/ssh443.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Go%20Ethereum%20Node/attachOne.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/lab-seed.json
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/seed-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/start-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/ssh443.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/go-ethereum-on-ubuntu/attachOne.sh
 
 #####################
 # setup the Azure CLI
