@@ -1,1 +1,1 @@
-geth attach ipc:chains/OneChain/geth.ipc
+geth attach ipc:chains/devtest/geth.ipc
