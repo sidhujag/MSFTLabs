@@ -54,6 +54,3 @@ time sudo apt-get install solc -y
 ####################
 time sudo sh ssh443.sh
 time sudo service ssh restart
-
-date
-echo "completed geth install $$"
