@@ -20,7 +20,7 @@ VMNAME=`hostname`
 CHAINNAME="chain1"
 echo "User: $AZUREUSER"
 echo "User home dir: $HOMEDIR"
-echo "chain name: $CHAINNAME"
+
 
 # This is run as root - install Tendermint
 time sudo curl -L https://raw.githubusercontent.com/tendermint/tendermint/master/INSTALL/install_env.sh > install_env.sh
