@@ -35,5 +35,3 @@ sudo apt-get install cpp-ethereum
 # Fetch Genesis and Private Key
 cd $HOMEDIR
 
-date
-echo "completed (++)Ethereum install $$"
