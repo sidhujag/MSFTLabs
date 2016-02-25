@@ -9,7 +9,7 @@
 # you.
 
 # If you are looking for a quick and easy way to set up eris on a cloud machin
-# please see https://raw.githubusercontent.com/marleyg/MSFTLabs/master/artifacts/Add%20Eris%20Node%20Linux/setup.sh
+# please see https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/Add%20Eris%20Node%20Linux/setup.sh
 
 # If $DOCKER_VERSION is set then the host will use that.
 

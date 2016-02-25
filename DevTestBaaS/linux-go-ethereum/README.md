@@ -138,7 +138,7 @@ o attachOne.sh – attach console
 ![](assets/personal.newAccount.png)
 
 - 22. Type in a passphrase. This is your PRIVATE KEY…so don’t lose it!
-- 23. **If this is the second node once your Node has completed Syncing the Blockchain, you are ready to start mining, but you may want to wait to start mining so you can easily see the Eth balance changes. From your new SSH window type:* **`miner.start()`**
+- 23. **If this is the second node once your Node has completed Syncing the Blockchain, you are ready to start mining, but you may want to wait to start mining so you can easily see the Eth balance changes. From your new SSH window type:* **`miner.start(1)`**
 ![](assets/miner.Start().png)
 - 24. **OPTIONAL** Repeat steps 4-23 to create a second node on you network
 - 25. Once the DAG (distributed acyclic graph) is completed the database is ready to be distributed
