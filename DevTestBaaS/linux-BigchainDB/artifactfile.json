@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
-  "title": "BigchainDB-Linux",
+  "title": "BigchainDB Linux",
   "description": "Add a BigchainDB node to network in the Lab",
   "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-BigchainDB/labArtifact.png",
   "targetOsType": "Linux",
