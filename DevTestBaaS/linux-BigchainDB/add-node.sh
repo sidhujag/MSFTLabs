@@ -31,7 +31,7 @@ time sudo update-alternatives --install /usr/bin/node nodejs /usr/bin/nodejs 100
 ####################
 # Setup Geth
 ####################
-time sudo apt-get -y git
+time sudo apt-get -y install git build-essential libtool autotools-dev autoconf pkg-config libssl-dev libevent-dev bsdmainutils libboost-all-dev libminiupnpc-dev libzmq3-dev
 time sudo apt-get install -y software-properties-common
 time sudo git clone git@github.com:bigchaindb/bigchaindb.git
 time sudo bigchaindb/docker-compose build
