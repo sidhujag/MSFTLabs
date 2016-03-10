@@ -20,7 +20,7 @@ echo "vmname: $VMNAME"
 
 # Fetch Genesis and scripts
 cd $HOMEDIR
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/BigchainDB/start-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-BigchainDB/start-blockchain.sh
 
 #####################
 # setup the Azure CLI
@@ -29,7 +29,7 @@ time sudo npm install azure-cli -g
 time sudo update-alternatives --install /usr/bin/node nodejs /usr/bin/nodejs 100
 
 ####################
-# Setup Geth
+# Setup BigChainDB
 ####################
 time sudo apt-get -y install git build-essential libtool autotools-dev autoconf pkg-config libssl-dev libevent-dev bsdmainutils libboost-all-dev libminiupnpc-dev libzmq3-dev
 time sudo apt-get install -y software-properties-common
