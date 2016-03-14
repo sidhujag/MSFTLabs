@@ -20,11 +20,11 @@ echo "vmname: $VMNAME"
 
 # Fetch Genesis and scripts
 cd $HOMEDIR
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/lab-seed.json
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/seed-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/start-blockchain.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/ssh443.sh
-wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-go-ethereum/attachOne.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/lab-seed.json
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaSlinux-ethereum-homg/seed-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/start-blockchain.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/ssh443.sh
+wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-ethereum-homg/attachOne.sh
 
 #####################
 # setup the Azure CLI
@@ -38,7 +38,7 @@ time sudo update-alternatives --install /usr/bin/node nodejs /usr/bin/nodejs 100
 time sudo apt-get -y git
 time sudo apt-get install -y software-properties-common
 time sudo add-apt-repository -y ppa:ethereum/ethereum
-#time sudo add-apt-repository -y ppa:ethereum/ethereum-dev
+time sudo add-apt-repository -y ppa:ethereum/ethereum-dev
 time sudo apt-get update
 time sudo apt-get install -y ethereum
 
