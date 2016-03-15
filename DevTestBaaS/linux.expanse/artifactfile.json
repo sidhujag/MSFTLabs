@@ -1,0 +1,18 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "Install Expanse into the lab.",
+    "description": "Install a Expanse",
+    "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-expanse/labArtifact.png",
+    "tags": [
+        "Docker",
+        "Linux",
+        "Container",
+        "ethereum",
+        "ide"
+    ],
+    "targetOsType": "Linux",
+    "parameters": { },
+    "runCommand": {
+        "commandToExecute": "sh setup.sh"
+    }
+}
