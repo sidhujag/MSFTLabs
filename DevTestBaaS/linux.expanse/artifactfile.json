@@ -4,11 +4,8 @@
     "description": "Install a Expanse",
     "iconUri": "https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-expanse/labArtifact.png",
     "tags": [
-        "Docker",
-        "Linux",
-        "Container",
-        "ethereum",
-        "ide"
+    "Linux",
+    "blockchain"
     ],
     "targetOsType": "Linux",
     "parameters": { },
