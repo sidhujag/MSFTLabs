@@ -5,12 +5,11 @@ set -e
 date
 ps axjf
 
+if [ $1 = 'From_Source' ]; then
 #################################################################
 # Update Ubuntu and install prerequisites for running Syscoin   #
 #################################################################
 sudo apt-get update
-
-if [ $1 = 'From_Source' ]; then
 #################################################################
 # Build Syscoin from source                                     #
 #################################################################
@@ -70,6 +69,6 @@ then
 	sudo update-rc.d syscoin defaults	
 fi
 
+sudo syscoind
+echo 'Syscoin has been setup successfully and is running...'
 
-
-/usr/bin/syscoind & exit 0
