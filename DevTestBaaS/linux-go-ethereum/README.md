@@ -99,7 +99,7 @@ o attachOne.sh – attach console
 
 
 
-- 9. Select Go-Ethereum-Linux as your artifact 
+- 9. Select Go-Ethereum-Linux as your artifact - Instructions for adding the BaaS Library is at <https://github.com/marleyg/MSFTLabs/tree/master/DevTestBaaS>
 
 ![](assets/vmArtifacts.png)
 
