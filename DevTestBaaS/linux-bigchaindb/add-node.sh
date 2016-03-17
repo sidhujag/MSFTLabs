@@ -1,24 +1,37 @@
 #!/bin/bash
 
-# print commands and arguments as they are executed
-set -x
+if [ -f /usr/bin/apt ] ; then
+    echo "Using APT package manager"
 
-echo "initializing bigchaindb installation"
-date
-ps axjf
+    apt-get -y update
+    apt-get -y install docker.io
+elif [ -f /usr/bin/yum ] ; then 
+    echo "Using YUM package manager"
 
-#############
-# Parameters
-#############
+    yum -y update
+    yum install -y docker
 
-AZUREUSER=$1
-HOMEDIR="/home/$AZUREUSER"
-VMNAME=`hostname`
-echo "User: $AZUREUSER"
-echo "User home dir: $HOMEDIR"
-echo "vmname: $VMNAME"
+    systemctl start docker
+    systemctl enable docker
+fi
 
-# Fetch Genesis and scripts
+docker run -d -p 0.0.0.0:80:8181 -p 0.0.0.0:8080:8080 -p 0.0.0.0:8555:8555 ethercamp/ide-standalone#!/bin/bash
+
+if [ -f /usr/bin/apt ] ; then
+    echo "Using APT package manager"
+
+    apt-get -y update
+    apt-get -y install docker.io
+elif [ -f /usr/bin/yum ] ; then 
+    echo "Using YUM package manager"
+
+    yum -y update
+    yum install -y docker
+
+    systemctl start docker
+    systemctl enable docker
+fi
+# Fetch scripts
 cd $HOMEDIR
 wget https://raw.githubusercontent.com/marleyg/MSFTLabs/master/DevTestBaaS/linux-bigchaindb/start-blockchain.sh
 
@@ -29,13 +42,12 @@ time sudo npm install azure-cli -g
 time sudo update-alternatives --install /usr/bin/node nodejs /usr/bin/nodejs 100
 
 ####################
-# Setup Docker & BigChainDB
+# Setup BigChainDB
 ####################
 
 time sudo apt-get -y install git build-essential libtool autotools-dev autoconf pkg-config libssl-dev libevent-dev bsdmainutils libboost-all-dev libminiupnpc-dev libzmq3-dev
 time sudo apt-get install -y software-properties-common
-time sudo curl -L https://github.com/docker/compose/releases/download/1.6.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
-time sudo chmod +x /usr/local/bin/docker-compose
+
 time sudo git clone https://github.com/bigchaindb/bigchaindb
 time cd bigchaindb
 time sudo docker-compose build
